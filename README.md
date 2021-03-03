@@ -1,4 +1,5 @@
 ## CoMatch: Semi-supervised Learning with Contrastive Graph Regularization (Salesforce Research)
+<img src="comatch.gif" width="600">
 
 This is a PyTorch implementation of the <a href="https://arxiv.org/abs/2011.11183">CoMatch paper</a> <a href="https://blog.einstein.ai/comatch-advancing-semi-supervised-learning-with-contrastive-graph-regularization/">[Blog]</a>:
 <pre>
