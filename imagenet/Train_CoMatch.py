@@ -466,6 +466,7 @@ def validate(val_loader, model, args, logger, tb_logger, epoch):
                     epoch, i + 1, top1.avg, top5.avg))
 
     if args.gpu==0:    
+        logger.info("validation ||epoch:{}, acc1 : {:.2f}. acc5 : {:.2f}.".format(epoch, top1.avg, top5.avg))
         tb_logger.log_value('test_acc', top1.avg, epoch)
         tb_logger.log_value('test_acc5', top5.avg, epoch)
     torch.cuda.empty_cache()    
