@@ -20,7 +20,6 @@ import torch.nn.functional as F
 
 from WideResNet import WideResnet
 from datasets.cifar import get_train_loader, get_val_loader
-from torch.optim.lr_scheduler import CosineAnnealingLR
 from utils import accuracy, setup_default_logging, AverageMeter, WarmupCosineLrScheduler
 
 import tensorboard_logger 
@@ -316,7 +315,6 @@ def main():
     optim = torch.optim.SGD(param_list, lr=args.lr, weight_decay=args.weight_decay,
                             momentum=args.momentum, nesterov=True)
 
-    #lr_schdlr = CosineAnnealingLR(optim, n_iters_all, eta_min=0.001)
     lr_schdlr = WarmupCosineLrScheduler(optim, n_iters_all, warmup_iter=0)
     
     # memory bank
