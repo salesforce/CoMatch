@@ -275,7 +275,7 @@ def main():
     parser.add_argument('--alpha', type=float, default=0.9)   
     parser.add_argument('--queue-batch', type=float, default=5, 
                         help='number of batches stored in memory bank')    
-    parser.add_argument('--exp-dir', default='CoMatch-c1-0.8', type=str, help='experiment id')
+    parser.add_argument('--exp-dir', default='CoMatch', type=str, help='experiment id')
     parser.add_argument('--checkpoint', default='', type=str, help='use pretrained model')
     
     args = parser.parse_args()
