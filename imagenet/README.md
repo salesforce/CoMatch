@@ -2,10 +2,10 @@
 
 This implementation only supports multi-gpu, DistributedDataParallel training, which is faster and simpler.
 
-To train CoMatch with 1% labels, run:
+To train CoMatch with 1% labels on 8 gpus, run:
 <pre>python Train_CoMatch.py --percent 1 --thr 0.6 --contrast-th 0.3 --lam-c 10 [Imagenet dataset folder]</pre>
 
-To train CoMatch with 10% labels, run:
+To train CoMatch with 10% labels on 8 gpus, run:
 <pre>python Train_CoMatch.py --percent 10 --thr 0.5 --contrast-th 0.2 --lam-c 2 [Imagenet dataset folder]</pre>
 
 
