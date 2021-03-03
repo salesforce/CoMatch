@@ -8,15 +8,21 @@ To train CoMatch with 1% labels on 8 gpus, run:
 To train CoMatch with 10% labels on 8 gpus, run:
 <pre>python Train_CoMatch.py --percent 10 --thr 0.5 --contrast-th 0.2 --lam-c 2 [Imagenet dataset folder]</pre>
 
-
-### Download CoMatch pre-trained ResNet-50 models
-<a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/CoMatch_1percent.pth.tar">1% labels</a>| <a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/CoMatch_10percent.pth.tar">10% labels</a>
------- | ------
-
-
 ### Semi-supervised learning results with CoMatch
 
 num. labels | top-1 acc. | top-5 acc
 --- | --- | --- 
 1%  | 66.0% | 86.4% 
 10%  | 73.6% | 91.6%
+
+### Download pre-trained ResNet-50 models and annotation files
+
+num. labels | model | annotation
+------ | ------ | ------
+1%   | <a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/CoMatch_1percent.pth.tar">download</a> | <a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/annotation_1percent.json">download</a>
+10% | <a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/CoMatch_10percent.pth.tar">download</a> | <a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/annotation_10percent.json">download</a> 
+
+
+
+
+
