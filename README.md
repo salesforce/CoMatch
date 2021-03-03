@@ -5,8 +5,8 @@ This is a PyTorch implementation of the <a href="https://arxiv.org/abs/2011.1118
 @article{CoMatch,
 	title={Semi-supervised Learning with Contrastive Graph Regularization},
 	author={Junnan Li and Caiming Xiong and Steven C.H. Hoi},
-	journal={},
-	year={2021}
+	journal={arXiv preprint arXiv:2011.11183},
+	year={2020}
 }</pre>
 
 To perform semi-supervised learning on CIFAR-10 with 4 labels per class, run:
