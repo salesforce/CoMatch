@@ -10,6 +10,11 @@ This is a PyTorch implementation of the <a href="https://arxiv.org/abs/2011.1118
 	year={2020}
 }</pre>
 
+### Requirements:
+* PyTorch ≥ 1.4
+* pip install tensorboard_logger
+* download and extract <a href="https://www.cs.toronto.edu/~kriz/cifar.html">cifar-10 dataset</a> into ./data/ 
+
 To perform semi-supervised learning on CIFAR-10 with 4 labels per class, run:
 <pre>python Train_CoMatch.py --n-labeled 40 --seed 1 </pre> 
 
