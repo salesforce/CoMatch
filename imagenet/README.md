@@ -15,12 +15,12 @@ num. labels | top-1 acc. | top-5 acc
 1%  | 66.0% | 86.4% 
 10%  | 73.6% | 91.6%
 
-### Download pre-trained ResNet-50 models and annotation files
+### Download pre-trained ResNet-50 models 
 
-num. labels | model | annotation
------- | ------ | ------
-1%   | <a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/CoMatch_1percent.pth.tar">download</a> | <a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/annotation_1percent.json">download</a>
-10% | <a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/CoMatch_10percent.pth.tar">download</a> | <a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/annotation_10percent.json">download</a> 
+num. labels | model 
+------ | ------ 
+1%   | <a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/CoMatch_1percent.pth.tar">download</a> 
+10% | <a href="https://storage.googleapis.com/sfr-pcl-data-research/CoMatch_checkpoint/CoMatch_10percent.pth.tar">download</a> 
 
 
 
