@@ -24,5 +24,6 @@ seed| 1 | 2 | 3 | 4 | 5 | avg
 --- | --- | --- | --- | --- | --- | --- 
 accuracy|93.71|94.10|92.93|90.73|93.97|93.09
 
+### ImageNet
 For ImageNet experiments, see ./imagenet/
 
