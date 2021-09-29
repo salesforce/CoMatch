@@ -1,13 +1,13 @@
-## CoMatch: Semi-supervised Learning with Contrastive Graph Regularization (Salesforce Research), Accepted by ICCV 2021!
+## CoMatch: Semi-supervised Learning with Contrastive Graph Regularization, ICCV 2021 (Salesforce Research).
 <img src="comatch.gif" width="600">
 
 This is a PyTorch implementation of the <a href="https://arxiv.org/abs/2011.11183">CoMatch paper</a> <a href="https://blog.einstein.ai/comatch-advancing-semi-supervised-learning-with-contrastive-graph-regularization/">[Blog]</a>:
 <pre>
-@article{CoMatch,
+@inproceedings{CoMatch,
 	title={Semi-supervised Learning with Contrastive Graph Regularization},
 	author={Junnan Li and Caiming Xiong and Steven C.H. Hoi},
-	journal={arXiv preprint arXiv:2011.11183},
-	year={2020}
+	booktitle={IICV},
+	year={2021}
 }</pre>
 
 ### Requirements:
