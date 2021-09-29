@@ -6,7 +6,7 @@ This is a PyTorch implementation of the <a href="https://arxiv.org/abs/2011.1118
 @inproceedings{CoMatch,
 	title={Semi-supervised Learning with Contrastive Graph Regularization},
 	author={Junnan Li and Caiming Xiong and Steven C.H. Hoi},
-	booktitle={IICV},
+	booktitle={ICCV},
 	year={2021}
 }</pre>
 
